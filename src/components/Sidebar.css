@@ -49,5 +49,14 @@
 
 .sidebar__searchContainer > .MuiSvgIcon-root{
     color: gray;
-    /* padding: 10px; */
+}
+
+/* .sidebar__searchIcon{
+    color: gray;
+} */
+
+.sidebar__chats{
+    background-color: white;
+    flex: 1;
+    /* overflow: scroll; */
 }
