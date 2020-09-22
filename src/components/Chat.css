@@ -4,7 +4,7 @@
     flex: 0.65;
 }
 
-.chat__header{
+.chat__header {
     padding: 20px;
     display: flex;
     align-items: center;
@@ -12,16 +12,28 @@
     /* justify-content: space-between; */
 }
 
-.chat__info{
-    flex:1;
+.chat__info {
+    flex: 1;
     padding-left: 20px;
 }
 
-.chat__name{
+.chat__RoomName {
     margin-bottom: 3px;
     font-weight: 500;
 }
 
-.chat__lastSeen{
+.chat__lastSeen {
     color: gray;
 }
+
+.chat__body {
+    flex: 1;
+    /* background-image: url("https://wallpaperaccess.com/full/2224368.png"); */
+    background-image: url("https://user-images.githubusercontent.com/15075759/28719144-86dc0f70-73b1-11e7-911d-60d70fcded21.png");
+    background-repeat: repeat;
+    background-position: center;
+    padding: 30px;
+    object-fit: contain;
+    overflow: scroll;
+}
+
