@@ -2,7 +2,7 @@ import React from "react";
 import "./Chat.css";
 
 import { Avatar, IconButton } from "@material-ui/core";
-import { AttachFile, MoreVert } from "@material-ui/icons";
+import { AttachFile, InsertEmoticon, MoreVert, Mic  } from "@material-ui/icons";
 import SearchIcon from "@material-ui/icons/Search";
 
 import ChatMessage from "./ChatMessage";
@@ -37,7 +37,22 @@ function Chat() {
       <ChatMessage />
       <ChatMessage receiver />
       </div>
+
+      <div className="chat__footer">
+      <InsertEmoticon />
+      <form action="">
+        <input type="text" placeholder="Type a Mesaage"/>
+        <button type="submit">Send a Message</button>
+      </form>
+      <Mic />
+
+      </div>
+
+
+
+
     </div>
+    
   );
 }
 
